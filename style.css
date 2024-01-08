@@ -1,0 +1,57 @@
+.logoImg {
+    height: 100px;
+}
+
+.nav-link {
+    padding-top: 40px;
+}
+
+.jumbotron {
+    background-image: url(img/jumbotron.webp);
+    background-size: cover;
+    height: 500px;
+}
+
+.jumbP {
+    font-size: 25px;
+} 
+
+.btnColap {
+    color: blue;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 1000px;
+    bottom: 30px;
+}
+
+.myCardOS {
+    padding: 0;
+    margin-right: 40px;
+}
+
+#welcomeSummer {
+    margin-top: 24px;
+}
+
+.myCardWS {
+    padding: 0;
+    margin-right: 20px;
+    border: none;
+}
+
+#offertaGiorno {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 500px) {
+    h4#offertaGiorno  {
+        display: none;
+    }
+    button.btnGiorno {
+        display: none;
+    }
+    div#collapseOffGiorno {
+        display: none;
+    }
+}
